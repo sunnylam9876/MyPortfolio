@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 // icons
-import { BsArrowUpRight } from "react-icons/bs";
+//import { BsArrowUpRight } from "react-icons/bs";
 // motion
 import { motion } from "framer-motion";
 // variants
@@ -10,34 +10,34 @@ import {fadeIn} from "../variants";
 // services
 const services = [
   {
-    name: "Web Development",
+    name: "Programming Language",
     description:
-      "HTML, CSS, Javascript, User interface, Back-end Database, Search Engine Optimization",
+      "HTML, CSS, Javascript, React.js, Node.js, Express.js, C++, C#, Java, Python",
     //link: "Learn more",
   },
   {
-    name: "Mobile Development",
+    name: "Programming Tools and Platforms",
     description:
-      "Native Android, Back-end Database, Prototyping",
+      "Git, Github, Android Studio, Visual Studio Code",
     //link: "Learn more",
   },
   {
-    name: "Software Engineering",
+    name: "Database",
     description:
-      "Software Development Life Cycle, Agile principles, Data Structure and Algorithms",
+      "MySQL, MongoDB",
     //link: "Learn more",
   },
   {
-    name: "Software Application",
+    name: "Graphic Tools",
     description:
-      "C++, C#, Java, Python",
+      "Photoshop, Figma",
     //link: "Learn more",
-  },
+  }
 ];
 
-const Services = () => {
+const Skills = () => {
   return (
-    <section className="section" id="services">
+    <section className="section" id="skills">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:mt-16">
           {/* text and images */}
@@ -46,14 +46,13 @@ const Services = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
-          className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
-            <h2 className="h2 text-accent mb-6 ">What I Can Do.</h2>
-{/*             <h3 className="h3 mb-12 max-w-[455px]">
-              I'm a Freelance Full Stack Developer
-            </h3> */}
-            <button className="btn btn-sm">See my work</button>
+          className="flex-1 lg:bg-skills lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
+            <h2 className="h2 text-accent mb-6 ">Skills</h2>
+            <h3 className="h3 mb-12 max-w-[455px]">
+              Technical knowledge
+            </h3>
+            {/* <button className="btn btn-sm">See my work</button> */}
           </motion.div>
-          
           {/* services */}
           <motion.div
           variants={fadeIn('left', 0.5)}
@@ -89,4 +88,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skills;

@@ -26,12 +26,12 @@ const Work = () => {
                 My Latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-10">
+              {/* <p className="max-w-sm mb-10">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
                 veniam enim ad repudiandae odio recusandae accusantium totam
                 dolorem harum eum.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <button className="btn btn-sm">View all projects</button> */}
             </div>
 
             {/* image */}
@@ -46,11 +46,12 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UX/UI Design</span>
+                <span className="text-gradient">Portfolio Website</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white"></span>
+                  <h4>Responsive website, with CSS and JS animations</h4>
               </div>
             </div>
           </motion.div>
@@ -73,7 +74,8 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Web Design</span>
+                <span className="text-gradient">Movie Review Website</span>
+                
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -92,7 +94,7 @@ const Work = () => {
               />
               {/* subtitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Modern Website</span>
+                <span className="text-gradient">Food Calories Tracker</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
