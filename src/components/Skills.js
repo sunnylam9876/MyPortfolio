@@ -18,7 +18,7 @@ const services = [
   {
     name: "Programming Tools and Platforms",
     description:
-      "Git, Github, Android Studio, Visual Studio Code",
+      "Git, Github, Android Studio, Visual Studio Code, WordPress",
     //link: "Learn more",
   },
   {
